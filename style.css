@@ -1,0 +1,411 @@
+@import url(https://fonts.googleapis.com/css2?family=Lato&display=swap);
+* , :before {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+.Ayaulym {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+/* AYAULYM START*/
+/* Navigation */
+.Aia #header {
+    background-color: #f4f4f4;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.Aia #header #Seytech {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 10%;
+}
+.Aia #header #button {
+    background-color: #007bff;
+    border-color: 1px solid #007bff;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    display: grid;
+    text-decoration: none;
+    width: 7%;
+    margin-right: 10%;
+}
+/* Navigation */
+@media screen and (min-width: 320px) and (max-width: 399px) {
+    .Aia #header #button {
+        width: 25%;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 480px) {
+    .Aia #header #button {
+        width: 30%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .Aia #header #button {
+        width: 20%;
+    }
+}
+
+/* Header Showase Style */
+#header2 {
+    background-image: url(https://learn.seytech.co/assets/projects/html-css/projects/3-landing/img/bg-masthead.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+#header2 #b {
+    color: white;
+    margin: 0;
+    padding-top: 10%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 3%;
+    font-size: 400%;
+    text-align: center;
+}
+#header2 #a {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 15%;
+}
+#header2 #a #input {
+    border: white;
+    border-radius: 5px;
+    width: 70%;
+    height: 60px;
+    font-size: 30px;
+    padding-left: 5%;
+    margin-left: 25%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#header2 #a .button {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    font-size: 28px;
+    width: 50%;
+    height: 60px;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 450px;
+    margin-left: 3%;
+}
+@media screen and (min-width: 320px) and (max-width: 399px) {
+    #header2 {
+        height: 80vh;
+    }
+    #header2 #b {
+        margin: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 170%;
+    }
+    #header2 #a {
+        margin: 0;
+        display: block;
+        margin-left: 4%;
+    }
+    #header2 #a #input {
+        border: white;
+        border-radius: 5px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        margin: 0;
+    }
+    #header2 #a .button {
+        font-size: 20px;
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        margin-top: 3%;
+        display: grid;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 480px) {
+    #header2 {
+        height: 70vh;
+    }
+    #header2 #b {
+        margin: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 170%;
+    }
+    #header2 #a {
+        margin: 0;
+        display: block;
+        margin-left: 4%;
+    }
+    #header2 #a #input {
+        border-radius: 5px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        margin: 0;
+    }
+    #header2 #a .button {
+        font-size: 20px;
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        margin-top: 3%;
+        display: grid;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #header2 {
+        height: 80vh;
+    }
+    #header2 #b {
+        margin: 0;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 170%;
+    }
+    #header2 #a {
+        margin: 0;
+        display: block;
+        margin-left: 4%;
+    }
+    #header2 #a #input {
+        border-radius: 5px;
+        width: 100%;
+        height: 40px;
+        font-size: 20px;
+        margin: 0;
+    }
+    #header2 #a .button {
+        font-size: 20px;
+        width: 100%;
+        height: 40px;
+        margin: 0;
+        margin-top: 3%;
+        display: grid;
+    }
+}
+@media screen and (min-width: 769px) {
+    #header2 {
+        height: 90vh;
+    }
+    #header2 #b {
+        padding-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        font-size: 400%;
+    }
+    #header2 #a {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 15%;
+        margin-left: 10%;
+        margin-top: 0;
+    }
+    #header2 #a #input {
+        width: 50%;
+        height: 60px;
+        font-size: 30px;
+        margin: 0;
+        padding-left: 2%;
+        margin-left: 20%;
+    }
+    #header2 #a .button {
+        font-size: 28px;
+        width: 15%;
+        height: 60px;
+        text-decoration: none;
+        text-align: center;
+        margin-right: 35%;
+    }
+}
+
+/* Section */
+.Aia2 {
+    color: black;
+    height: 70vh;
+    padding: 10px 0;
+    padding-left: 100px;
+    background-color: #f4f4f4;
+}
+.Aia2 .s1,
+.Aia2 .s2,
+.Aia2 .s3 {
+    float: left;
+    margin: 50px;
+    margin-left: 0px;
+    text-align: center;
+}
+.Aia2 .s1 .fully b,
+.Aia2 .s2 .fully b,
+.Aia2 .s3 .fully b {
+    width: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+.Aia2 .s1 .f,
+.Aia2 .s2 .f,
+.Aia2 .s3 .f {
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.Aia2 .s1 i span,
+.Aia2 .s2 i span,
+.Aia2 .s3 i span {
+    font-size: 100px;
+    color: #007bff;
+}
+.Aia2 .s1 i span:hover,
+.Aia2 .s2 i span:hover
+.Aia2 .s3 i span:hover {
+    font-size: 120px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 399px) {
+    /* Section */
+    .Aia2 {
+        height: 130vh;
+        padding: 0;
+        padding-left: 0;
+    }
+    .Aia2 .s1,
+    .Aia2 .s2,
+    .Aia2 .s3 {
+        float: none;
+        margin: 0;
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 5%;
+        padding-top: 5%;
+    }
+    .Aia2 .s1 .fully b,
+    .Aia2 .s2 .fully b,
+    .Aia2 .s3 .fully b {
+        width: 50px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .Aia2 .s1 .f,
+    .Aia2 .s2 .f,
+    .Aia2 .s3 .f {
+        width: 80%;
+        text-align: center;
+        font-size: 100%;
+        padding-top: 2%;
+        margin-left: 8%;
+    }
+    .Aia2 .s1 i span,
+    .Aia2 .s2 i span,
+    .Aia2 .s3 i span {
+        font-size: 200%;
+        color: #007bff;
+    }
+    .Aia2 .s1 i span:hover,
+    .Aia2 .s2 i span:hover,
+    .Aia2 .s3 i span:hover {
+        font-size: 220%;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 480px) {
+    .Aia2 {
+        height: 100vh;
+        padding: 0;
+        padding-left: 0;
+    }
+    .Aia2 .s1,
+    .Aia2 .s2,
+    .Aia2 .s3 {
+        float: none;
+        margin: 0;
+        margin-left: 0;
+        margin-bottom: 5%;
+        padding-top: 5%;
+    }
+    .Aia2 .s1 .fully b,
+    .Aia2 .s2 .fully b,
+    .Aia2 .s3 .fully b {
+        width: 0;
+        font-size: 150%;
+    }
+    .Aia2 .s1 .f,
+    .Aia2 .s2 .f,
+    .Aia2 .s3 .f {
+        width: 70%;
+        font-size: 150%;
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .Aia2 .s1 i span,
+    .Aia2 .s2 i span,
+    .Aia2 .s3 i span {
+        font-size: 170%;
+    }
+    .Aia2 .s1 i span:hover,
+    .Aia2 .s2 i span:hover
+    .Aia2 .s3 i span:hover {
+        font-size: 190%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .Aia2 {
+        height: 50vh;
+        margin: 0;
+        padding: 0;
+        padding-left: 0;
+    }
+    .Aia2 .s1,
+    .Aia2 .s2,
+    .Aia2 .s3 {
+        display: table;
+        margin: 0;
+        margin-left: 0;
+        width: 30%;
+        margin-top: 2%;
+    }
+    .Aia2 .s1 {
+        margin-left: 8%;
+    }
+
+    .Aia2 .s1 .fully b,
+    .Aia2 .s2 .fully b,
+    .Aia2 .s3 .fully b {
+        font-size: 120%;
+        margin-left: 0;
+    }
+    .Aia2 .s1 .f,
+    .Aia2 .s2 .f,
+    .Aia2 .s3 .f  {
+        width: 80%;
+        font-size: 80%;
+        margin-left: 8%;
+        padding: 0;
+        padding-top: 2%;
+    }
+    .Aia2 .s1 i span,
+    .Aia2 .s2 i span,
+    .Aia2 .s3 i span  {
+        font-size: 170%;
+    }
+    .Aia2 .s1 i span:hover,
+    .Aia2 .s2 i span:hover
+    .Aia2 .s3 i span:hover {
+        font-size: 200%;
+    }
+}
+/* AYAULYM END */

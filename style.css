@@ -409,3 +409,146 @@
     }
 }
 /* AYAULYM END */
+
+/* ANELII START */
+.t3 {
+    height: 100vh;
+    margin-left: 5%;
+}
+.t3 .mb-5 {
+    padding-top: 60px;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.t3 .container {
+    margin-left: 15%;
+}
+.t3 .container .a,
+.t3 .container .b,
+.t3 .container .c {
+    float: left;
+    padding: 0 5%;
+}
+.t3 .container .a .f,
+.t3 .container .b .f,
+.t3 .container .c .f {
+    width: 200px;
+    border-radius: 100px;
+}
+.t3 .container .a h5 b {
+    font-size: 30px;
+    margin-left: 25px;
+    text-align: center;
+}
+.t3 .container .b h5 b,
+.t3 .container .c h5 b {
+    font-size: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
+.t3 .container .a .a1,
+.t3 .container .b .a2,
+.t3 .container .c .a1 {
+    text-align: center;
+    width: 200px;
+}
+
+/* ANELII */
+@media screen and (min-width: 320px) and (max-width: 399px) {
+    .t3 {
+        height: 100vh;
+    }
+    .t3 .mb-5 {
+        padding-top: 10%;
+        font-size: 150%;
+        margin-left: 2%;
+    }
+    .t3 .container {
+        margin-left: 10%;
+    }
+    .t3 .container .a,
+    .t3 .container .b,
+    .t3 .container .c {
+        float: left;
+        padding: 0 5%;
+        margin-bottom: 8%;
+    }
+    .t3 .container .a .f,
+    .t3 .container .b .f,
+    .t3 .container .c .f {
+        width: 200px;
+        border-radius: 100px;
+    }
+    .t3 .container .a h5 b {
+        font-size: 30px;
+        margin-left: 25px;
+        text-align: center;
+    }
+    .t3 .container .b h5 b,
+    .t3 .container .c h5 b {
+        font-size: 30px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    .t3 .container .a .a1,
+    .t3 .container .b .a2,
+    .t3 .container .c .a1 {
+        text-align: center;
+        width: 200px;
+    }
+}
+@media screen and (min-width: 400px) and (max-width: 480px) {
+    .t3 {
+        height: 100vh;
+        padding-left: 2%;
+    }
+    .t3 .container .a,
+    .t3 .container .b,
+    .t3 .container .c {
+        float: none;
+        padding: 0 5%;
+        margin-bottom: 5%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .t3 {
+        height: 80vh;
+        margin-left: 0;
+    }
+    .t3 .mb-5 {
+        margin-left: 20%;
+    }
+    .t3 .container {
+        margin-left: 10%;
+    }
+    .t3 .container .a,
+    .t3 .container .b,
+    .t3 .container .c {
+        display: table;
+        padding: 2%;
+    }
+    .t3 .container .a .f,
+    .t3 .container .b .f,
+    .t3 .container .c .f {
+        width: 100px;
+        border-radius: 100px;
+        margin-left: 25%;
+    }
+    .t3 .container .a h5 b {
+        font-size: 150%;
+        margin-left: 23%;
+    }
+    .t3 .container .b h5 b,
+    .t3 .container .c h5 b {
+        font-size: 150%;
+        margin-left: 35%;
+    }
+    .t3 .container .a .a1,
+    .t3 .container .b .a2,
+    .t3 .container .c .a1 {
+        font-size: 100%;
+    }
+}
+/* ANELI END */

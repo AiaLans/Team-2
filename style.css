@@ -63,7 +63,7 @@
     background-image: url(https://gas-kvas.com/uploads/posts/2023-02/1675431406_gas-kvas-com-p-okean-fonovie-risunki-21.jpg);
     background-position: center;
     background-size: cover;
-    height: 70vh;
+    height: 60%;
 }
 #header2 #b {
     color: white;
@@ -237,7 +237,7 @@
 /* Section */
 .Aia2 {
     color: black;
-    height: 70vh;
+    height: 30%;
     padding: 10px 0;
     padding-left: 100px;
     background-color: #f4f4f4;

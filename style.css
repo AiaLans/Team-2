@@ -552,3 +552,163 @@
     }
 }
 /* ANELI END */
+
+/* sophie */
+
+/* showcase */
+
+.sophie{
+    display: inline-block;
+    padding-bottom: 0;
+}
+
+.showcase-img{
+    width: 50%;
+    
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0;
+}
+
+.showcase-img-1{
+    float: right;
+}
+
+.showcase-img-2{
+    float: left;
+}
+
+.showcase-img-3{
+    float: right;
+}
+
+img{
+    width: 100%;
+}
+
+.showcase-text{
+    width: 50%;
+    text-align: center;
+    padding-top: 13%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 120%;
+    padding-bottom: 0;
+}
+
+.showcase-text-1{
+    float: left;
+}
+
+.showcase-text-2{
+    float: right;
+}
+
+.showcase-text-3{
+    float: left;
+}
+
+/* register */
+
+.sophie-register{
+    background-image: url(https://gas-kvas.com/uploads/posts/2023-02/1675431406_gas-kvas-com-p-okean-fonovie-risunki-21.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.8;
+}
+
+.register-text{
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+}
+
+.register-button{
+    color: white;
+    background-color: rgb(0, 149, 255);
+    border: 0;
+    font-size: 15px;
+    border-radius: 5%;
+    padding: 1%;
+    width: 10%;
+    margin-left: 1%;
+}
+
+.input-button{
+    width: 25%;
+    padding: 1%;
+    border-radius: 5%;
+    border: 0;
+}
+
+.input-button:focus{
+    border: solid 5px rgb(0, 149, 255);
+}
+
+.register-tap{
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+/* footer */
+
+.list-item{
+    display: inline;
+    color: rgb(0, 149, 255);
+}
+
+.sophie-a{
+    text-decoration: none;
+}
+
+.sophie-footer-text{
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-bottom: 5%;
+    float: left;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5.5%;
+    padding-right: 15%;
+    margin: 0;
+}
+
+.facebook img {
+    max-width: 20px;
+}
+
+.facebook:hover{
+    cursor: pointer;
+}
+
+.dot {
+    color:#000;
+}
+
+footer .container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.social-icons {
+    font-size: 28px;
+    display: flex;
+    gap: 40px;
+}
+
+.fa-instagram:hover {
+    color: #0d3e74;
+}
+
+.fa-facebook:hover {
+    color:#0d3e74;
+}
+
+.fa-twitter:hover {
+    color: #0d3e74;
+}

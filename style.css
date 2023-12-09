@@ -712,3 +712,55 @@ footer .container {
 .fa-twitter:hover {
     color: #0d3e74;
 }
+
+@media (min-width: 0px) and (max-width: 768px) {
+
+    /* footer */
+
+    .sophie-footer-text, .social-icons{
+        display: block;
+    }
+
+    .sophie-footer-text{
+        text-align: center;
+    }
+
+    .social-icons{
+        display: flex;
+        justify-content: center;
+        padding: 11%;
+    }
+
+    /* showcase */
+
+    .showcase-text{
+        text-align: center;
+        width: 100%;
+    }
+
+    .showcase-img{
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .showcase-text{
+        padding-bottom: 10%;
+    }
+
+    /* register */
+
+    .input-button, .register-button{
+        display: block;
+    }
+
+    .input-button{
+        margin-left: 40%;
+        margin-bottom: 2%;
+    }
+
+    .register-button{
+        margin-left: 43%;
+        width: 20%;
+    }
+}
